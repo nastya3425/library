@@ -1,0 +1,65 @@
+.reservation {
+    background-color: #45B062;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.favorites {
+    background-color: #45B062;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: right;  
+}
+
+.buttons button {
+    background-color: #45B062; 
+    border: 1px solid green; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer; 
+    display: block;
+    font-size: 18px;
+}
+
+.buttons {
+    justify-content: end;
+    display: grid;
+    width: 950px;
+    height: 105px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.book_img {
+    display: flex;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.info p{
+    font-size: 18px;
+    margin-top: 10px;
+    height: 15px;
+}
+
+.info {
+    display: flex;
+    position: absolute;
+    justify-items: start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
